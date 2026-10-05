@@ -2,12 +2,8 @@
   import BackpackUI from './lib/BackpackUI.svelte'
   import PhoneUI from './lib/PhoneUI.svelte'
   import TestingPanel from './lib/TestingPanel.svelte'
-  import InfoModal from './lib/InfoModal.svelte'
 
   const studentName = 'Nipun'
-  const writeupUrl = '#writeup'
-
-  let infoOpen = $state(false)
 </script>
 
 <div class="page">
@@ -35,17 +31,6 @@
       <figcaption>Display mounts on the left strap</figcaption>
     </figure>
 
-    <div class="actions">
-      <a class="link" href={writeupUrl}>Project write-up ↗</a>
-      <button class="info-btn" type="button" onclick={() => (infoOpen = true)} aria-label="About this mock-up">
-        <svg viewBox="0 0 24 24" aria-hidden="true" width="18" height="18">
-          <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8" />
-          <path d="M12 10v6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-          <circle cx="12" cy="7.2" r="1.2" fill="currentColor" />
-        </svg>
-        <span>Info</span>
-      </button>
-    </div>
   </header>
 
   <main class="workspace">
@@ -71,8 +56,6 @@
     </section>
   </main>
 </div>
-
-<InfoModal open={infoOpen} onClose={() => (infoOpen = false)} />
 
 <style>
   .page {
@@ -110,49 +93,6 @@
     margin: 6px 0 0;
     color: var(--muted);
     font-size: 16px;
-  }
-
-  .actions {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .link {
-    color: var(--accent);
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 8px 10px;
-    border-radius: 8px;
-  }
-
-  .link:hover {
-    text-decoration: underline;
-  }
-
-  .info-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    border: 1px solid var(--line);
-    background: var(--card);
-    color: var(--ink);
-    border-radius: 999px;
-    padding: 8px 14px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-  }
-
-  .info-btn:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-  }
-
-  .info-btn:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
   }
 
   .workspace {
