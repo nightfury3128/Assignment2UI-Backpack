@@ -1,0 +1,33 @@
+:root {
+  color-scheme: light;
+  --paper: #ede4d4;
+  --card: #f8efdd;
+  --ink: #1a2340;
+  --muted: #6b7390;
+  --line: #ddcdb3;
+  --accent: #a0532a;
+  --accent-deep: #7f3f1d;
+  --navy-deep: #141b33;
+  --shadow: 0 16px 40px rgba(26, 35, 64, 0.1);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 1120px;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+#app {
+  min-height: 100vh;
+}
