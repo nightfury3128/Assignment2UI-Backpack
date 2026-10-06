@@ -2,6 +2,12 @@
 
 ---
 
+## Demo Video
+
+[Watch the demo on YouTube](https://youtu.be/xVXCushmOV4)
+
+---
+
 ## About the Project
 The idea behind this project came right before the class when I realised I forgot my laptop charger and the professor asked for a smart object, now as a forgetful college student who loves to travel but keeps on forgetting things like a deodarant or something else, a backpag which can tell me what I should carry before I even start making a list and here we are with the smart backpack. 
 
@@ -91,10 +97,8 @@ I have not designed for mobile because it is too congested
 
 Things I'd pick up next, roughly in order of how much they'd add:
 
-- **Mobile layout for the mock-up.** Right now the three-column workspace locks to desktop widths. A stacked layout with tabs would let the write-up be read on a phone, which is where portfolio links usually get opened.
-- **Calendar integration (real, not mocked).** The strap display's "Next event" card is static sample data. Hooking it to Google Calendar / iCloud via the phone would make the day-type auto-detect ("you have a flight today → Travel Day") actually work.
-- **Haptic / audio design pass.** Right now "Find bag" is a labelled button that doesn't do anything. Pairing it with a short beep + screen flash would communicate the full interaction, even in the mock-up.
-
+- **Mobile layout for the mock-up.** A much better UI for the phone which actually is useful, right now it is a very basic UI and it can be much better. 
+- **Calendar integration (real, not mocked).** The strap display's "Next event" card is static sample data. Connecting it to Google Calendar / iCloud via the phone would make the day-type auto-detect ("you have a flight today → Travel Day") actually work.
 ### Things I started but didn't finish
 
 - **A Strap Adjustment Screen** — One of the things I wanted but I couldn't figure it in the time was a way to allow the users to adjust the strap and have it perfectly equal everytime which is something that I would love to have on every bag I own (which is two)
