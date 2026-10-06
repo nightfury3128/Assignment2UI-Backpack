@@ -108,6 +108,6 @@ I used Chatgpt, Cursor and Claude (basically all LLMs) for the following:
 
 -**Chatgpt**- Forming the questionire for the interviews to make sure I ask the right question and overall make sure I am not missing features other people might like on the backpack. 
 
--**Cursor** - This was used for help me setting up svelete and making sure I was working on the right path, random debugging and also having it change my variable and files names to something better because I was using x,y,z and main.js.
+-**Cursor** - This was used for help me setting up svelete and making sure I was working on the right path, random debugging and also having it change my variable and files names to something better because I was using x,y,z and main.js and with the readme placing video and images properly. 
 
 -**Claude** - For grading the assignment before submitting to make sure I met all the requirements and get an idea for the grade I should expect, and for arraanging all files and helping me to push to github since the issue I had was: I made a UI folder which then I uploaded to github but then I intialised another repo inside a subfolder which broke git. 
